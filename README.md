@@ -7,3 +7,15 @@ step 2 namestis sifru koju oces da bude kad gasis komp ono da ti ne gasi svako s
 step 3 pokrenes program 
 step 4 udjes na adresu ukucas sifru i onda moze gasis komp bilo gde iz kuce sve dok si povezan na svoj net
 step 4 uzivaj jer nemora ustajes iz kreveta kad gledas filmove il tako nes
+
+## linux
+**INSTALIRAJ FLASK**
+```sh
+cd linux
+
+``` 
+```sh
+python3 shutdown.py 
+
+``` 
+ukucaj šifru **urosimalepuglavu**
