@@ -14,13 +14,52 @@ def home():
             <meta charset="UTF-8">
             <meta name="viewport" content="width=device-width, initial-scale=1.0">
             <title>Shutdown Control</title>
+               <style>
+                body {
+                    background-color: black;
+                    color: white;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    text-align: center;
+                    font-family: Arial, sans-serif;
+                    
+                }
+                      
+    button{
+	box-shadow: 3px 4px 0px 0px #8a2a21;
+	background:linear-gradient(to bottom, #c62d1f 5%, #f24437 100%);
+	background-color:#c62d1f;
+	border-radius:42px;
+	border:4px solid #d02718;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:17px;
+	padding:7px 53px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #810e05;
+}
+button:hover {
+	background:linear-gradient(to bottom, #f24437 5%, #c62d1f 100%);
+	background-color:#f24437;
+}
+button:active {
+	position:relative;
+	top:1px;}
+    .first{
+    font-size: 2rem;
+    margin-top: 7%:}
+            </style>
         </head>
-        <body>
+        <body> <div class = "first">
             <h1>Ugasi komp :3</h1>
             <form action="/authenticate" method="post">
                 <input type="password" name="password" placeholder="SIFRA MOLIM LEPO">
                 <button type="submit">PRISTUP</button>
             </form>
+            </div>
         </body>
         </html>
     ''')
@@ -40,28 +79,47 @@ def shutdown_page():
             <meta charset="UTF-8">
             <meta name="viewport" content="width=device-width, initial-scale=1.0">
             <title>Shutdown Control</title>
-            <style>
+               <style>
                 body {
                     background-color: black;
                     color: white;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
                     text-align: center;
                     font-family: Arial, sans-serif;
+                    
                 }
-                button {
-                    background-color: purple;
-                    color: white;
-                    font-size: 30px;
-                    padding: 20px 40px;
-                    border: none;
-                    cursor: pointer;
-                    border-radius: 10px;
-                }
-                button:hover {
-                    background-color: darkviolet;
-                }
+                      
+    button{
+	box-shadow: 3px 4px 0px 0px #8a2a21;
+	background:linear-gradient(to bottom, #c62d1f 5%, #f24437 100%);
+	background-color:#c62d1f;
+	border-radius:42px;
+	border:4px solid #d02718;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:17px;
+	padding:7px 53px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #810e05;
+}
+button:hover {
+	background:linear-gradient(to bottom, #f24437 5%, #c62d1f 100%);
+	background-color:#f24437;
+}
+button:active {
+	position:relative;
+	top:1px;}
+    .first{
+    font-size: 2rem;
+    margin-top: 7%:}
             </style>
         </head>
         <body>
+        <div class = "first">
             <h1>JESI LI SIGURAN??????????</h1>
             <form action="/shutdown" method="post">
                 <button type="submit">UGASI ME MOLIM TE</button>
